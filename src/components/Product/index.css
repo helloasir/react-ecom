@@ -1,9 +1,17 @@
 .product {
-    margin: 1%;
-    padding: 15px;
-    border: 1px solid lightgray;
-    width: 50%;
-    border-radius: 5px;
+    margin: 0 auto;
+    width: 300px;
+    height: 465px;
+    background: white;
+    border-radius: 3px;
+    position: relative;
+    padding: 10px
+}
+
+.product img{
+    margin: 0 auto;
+    width: 100px;
+    height: 265px;
 }
 
 .product:hover {

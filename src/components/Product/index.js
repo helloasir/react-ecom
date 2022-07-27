@@ -1,22 +1,22 @@
 import "./index.css";
 
 export default function Product(props) {
-    const {Noon_SKU, Product_Name, Brand_Name, Sold_By} = props
+    const {sku, brand, name, price,image_key} = props
 
     return (
         <div
-            key={Noon_SKU}
+            key={sku}
             className={"product"}
         >
-            {/* <img
-                src={imageUrl}
+            <img
+                src={'https://z.nooncdn.com/products/tr:n-t_400/'+image_key+'.jpg'}
                 alt={`Image of ${name}`}
                 className={"image-product"}
-            /> */}
-            <h3>{Noon_SKU}</h3>
-            <p>{Product_Name}</p>
-            <h4> {Brand_Name}</h4>
-            <span>Sold By {Sold_By}</span>
+            />
+            <h3>{name}</h3>
+            <p>Brand : {brand}</p>
+            <h4> Price AED {price}</h4>
+            {/* <span>Sold By {Sold_By}</span> */}
             {/* <div>
                 <button
                     className="snipcart-add-item"
