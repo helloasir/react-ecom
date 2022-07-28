@@ -8,7 +8,7 @@ export default function App() {
       <div className={"container"}>
         <main className={"main"}>
           <h1>
-            E-Commerce in React and SnipCart
+            E-Commerce in React Image and Name loading from Noon.com
           </h1>
 
           <div className={"grid"}>
@@ -17,11 +17,6 @@ export default function App() {
             }
           </div>
         </main>
-        <div
-            id="snipcart"
-            data-api-key="NWMwZWNkZGMtZjU2ZS00YzM3LWFlZjYtMmM5Zjk0MWViZDcxNjM3Njg0OTY0ODg5NTk4MTM3" hidden
-        >
-        </div>
       </div>
   );
 }
